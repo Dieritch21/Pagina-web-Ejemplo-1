@@ -56,7 +56,7 @@ background: #fff;
     width: 100%;
 }
 
-.main .imagen .img{
+.main .imagen img{
     width: 100%;
     vertical-align: top;
 }
@@ -114,8 +114,14 @@ aside .widget ul li a:hover{
 aside .widget p{
     margin-top: 15px;
     line-height: 25px;
+    text-align: justify;
 }
 
 footer{
-    background: #fff;
+    overflow: hidden;
+    width: 70%;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 15px 0;
 }
