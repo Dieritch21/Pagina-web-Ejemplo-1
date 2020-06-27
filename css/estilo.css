@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif, 'Times New Roman';
+    font-size: 16px;
+    background: #4a565b;
+}
+
+.contenedor{
+    width: 96%;
+    max-width: 1000px;
+    margin: 20px auto; /*Centrado de los lados*/
+    overflow: hidden; /*Ocultar elementos que se desbordan*/
+}
+
+header{
+    background: #fff;
+}
+
+header nav{
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 15px 20px;
+}
+
+header nav ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.main{
+float:left;
+width: 70%;
+background: #fff;
+}
+
+.main .imagen{
+    width: 100%;
+}
+
+.main .imagen .img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.main .posts{
+    padding: 40px; /*padding arriba abajo derecha izquierda*/
+
+}
+.main .posts article h2{
+    margin-top: 20px;
+    color: #424242;
+}
+
+.main .posts article p{
+    margin-bottom: 15px;
+    line-height: 27px;
+}
+
+aside{
+    width: 30%;
+    float: left; /*para que aparezca junto al main*/
+    background: #161f26;
+    padding: 20px;
+    color: #fff;
+}
+
+aside .widget{
+    margin-bottom: 20px;
+}
+
+aside .widget .Titulo{
+color: #ff8000;
+border-bottom: 1px solid #fff; /*linea de 1px solida de color blanco*/
+margin-bottom: 10px; /*marge de separacion de la letra*/
+}
+
+aside .widget ul{
+ list-style: none;   
+}
+
+aside .widget ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+}
+
+aside .widget ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+aside .widget ul li a:hover{
+    color: gray;
+}
+
+aside .widget p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+footer{
+    background: #fff;
+}
